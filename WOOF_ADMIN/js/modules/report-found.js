@@ -2,7 +2,7 @@ import { auth } from '../firebase-config.js'
 import { showToast } from './utils.js'
 import { waitForAdminState, currentUser, currentUserData } from './admin-state.js'
 
-const API_BASE  = 'https://refugiowoof.up.railway.app'
+const API_BASE  = 'https://refugioowoof.up.railway.app'
 const MAX_SLOTS = 3
 
 let selectedPhotos = [null, null, null]
