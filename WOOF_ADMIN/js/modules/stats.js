@@ -72,8 +72,8 @@ function _legendPercent() {
   return {
     position: 'right',
     labels: {
-      color: 'rgba(255,255,255,0.65)',
-      font: { size: 12 },
+      color: '#FFFFFF',
+      font: { size: 12, weight: 'bold' },
       boxWidth: 14,
       padding: 14,
       generateLabels(chart) {
